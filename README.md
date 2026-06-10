@@ -53,18 +53,18 @@ iot-energy-monitoring-system/
 │   ├── data-flow.png  
 │  
 ├── firmware/  
-│   └── sensor_reader.ino  
+│   ├── sensor_reader.ino  
 │  
 ├── backend/  
-│   └── api/  
-│       └── data_receiver.py  
+│   ├── api/  
+│        ├── data_receiver.py  
 │  
 ├── database/  
-│   └── schema.sql  
+│   ├── schema.sql  
 │  
 └── dashboard/  
     ├── index.html  
-    └── app.js  
+    ├── app.js  
 
 ##  Key Features
 &nbsp;•	Simulated IoT sensor data generation using embedded firmware  
